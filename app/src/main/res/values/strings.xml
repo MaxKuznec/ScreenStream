@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resolutions">
+        <item>720 × 1280 (9:16)</item>
+        <item>1080 × 1920 (9:16)</item>
+    </string-array>
+    <string-array name="fps_values">
+        <item>60 FPS</item>
+        <item>90 FPS</item>
+    </string-array>
+</resources>
