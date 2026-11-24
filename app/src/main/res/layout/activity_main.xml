@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/url" android:hint="RTMP URL сервера"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/key" android:hint="Ключ трансляции"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/res" android:entries="@array/resolutions"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/fps" android:entries="@array/fps_values"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/bitrate" android:hint="Битрейт, кбит/с"
+            android:inputType="number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/overlayPerm" android:text="Разрешение на оверлей"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/start" android:text="Запустить трансляцию"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
